@@ -1,9 +1,7 @@
 <template>
-
   <div class="text-center">
     <input type="text" class="w-75" @input="onInput">
   </div>
-
 </template>
 
 <script>

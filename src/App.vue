@@ -1,5 +1,4 @@
 <template>
-  
   <div class="container">
 
     YouTube
@@ -13,7 +12,6 @@
     <VideoList :videos="videos" @videoSelect="onVideoSelect"/>
 
   </div>
-
 </template>
 
 <script>
@@ -21,6 +19,7 @@
 import SearchBar from './components/SearchBar.vue'
 import VideoList from './components/VideoList.vue'
 import VideoDetail from './components/VideoDetail.vue'
+
 import axios from 'axios'
 
 const API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY
@@ -64,7 +63,7 @@ export default {
     onVideoSelect(video) {
       this.selectedVideo = video
     }
-  },
+  }
 }
 </script>
 

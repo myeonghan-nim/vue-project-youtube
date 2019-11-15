@@ -1,5 +1,4 @@
 <template>
-
   <div v-if="video">
     <div id="video-detail">
 
@@ -10,7 +9,6 @@
 
     </div>
   </div>
-
 </template>
 
 <script>
