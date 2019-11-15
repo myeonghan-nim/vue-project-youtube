@@ -1,24 +1,28 @@
 # youtube-browser
 
 ## Project setup
-```
-npm install
+```bash
+$ npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-npm run serve
+```bash
+$ npm run serve
 ```
 
 ### Compiles and minifies for production
-```
-npm run build
+```bash
+$ npm run build
 ```
 
 ### Lints and fixes files
-```
-npm run lint
+```bash
+$ npm run lint
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Fake youtube browser
+
+![1573786906254](README.assets/1573786906254.png)

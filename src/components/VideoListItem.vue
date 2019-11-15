@@ -1,5 +1,4 @@
 <template>
-
   <li class="list-group-item" @click="onVideoSelect">
 
     <img :src="thumbnailURL" class="m-1">
@@ -7,7 +6,6 @@
     {{video.snippet.title}}
 
   </li>
-
 </template>
 
 <script>
