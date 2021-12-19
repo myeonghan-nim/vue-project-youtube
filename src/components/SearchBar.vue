@@ -7,10 +7,8 @@
 <script>
 export default {
   name: 'SearchBar',
-
   methods: {
     onInput(e) {
-      // emit serve event to parent component
       this.$emit('inputChange', e.target.value)
     }
   },
@@ -18,5 +16,4 @@ export default {
 </script>
 
 <style>
-
 </style>

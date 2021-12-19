@@ -9,15 +9,12 @@ import VideoListItem from './VideoListItem.vue'
 
 export default {
   name: 'VideoList',
-
   props: {
     videos: Array,
   },
-
   components: {
     VideoListItem,
   },
-
   methods: {
     onVideoSelect(video) {
       this.$emit('videoSelect', video)
@@ -27,5 +24,4 @@ export default {
 </script>
 
 <style>
-
 </style>
