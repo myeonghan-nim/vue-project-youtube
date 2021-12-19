@@ -27,7 +27,3 @@ $ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## Fake youtube browser
-
-![1573786906254](README.assets/1573786906254.png)
